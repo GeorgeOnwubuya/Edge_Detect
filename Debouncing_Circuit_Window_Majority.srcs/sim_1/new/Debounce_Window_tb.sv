@@ -104,8 +104,8 @@
     endtask
     
     initial begin
-      	$dumpfile("dump.vcd");
-      	$dumpvars;
+      	//$dumpfile("dump.vcd");
+      	//$dumpvars;
       	#(TIME_CLK/4);
       	reset = 0;
       	#(TIME_CLK/2);
